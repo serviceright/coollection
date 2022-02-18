@@ -17,11 +17,15 @@
             "role": "Creator"
         }
     ],
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/serviceright/microservice-world/"},
+        {"packagist.org": false}
+    ],
     "require": {
         "php": ">=7.0",
-        "pragmarx/ia-collection": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-str": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-arr": "~5.0|~6.0|~7.0"
+        "serviceright/ia-collection": "~5.0|~6.0|~7.0",
+        "serviceright/ia-str": "~5.0|~6.0|~7.0",
+        "serviceright/ia-arr": "~5.0|~6.0|~7.0"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
